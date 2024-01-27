@@ -5,11 +5,136 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="073bf350-ab0a-4071-bf7d-161e5e488e88" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/backtracking/14888.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/bfs/2606.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/bfs/bfs_example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/dfs/1260.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/dfs/2606.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/dfs/dfs_example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/greedy/10162.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/greedy/10610.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/greedy/11047.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/greedy/11399.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/greedy/13305.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/greedy/1439.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/greedy/1541.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/greedy/1789.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/greedy/4796.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/greedy/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/leedcode/twopointer/threesum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/math/10818.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/math/10875.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/math/1292.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/math/1978.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/math/2309.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/math/2460.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/math/2581.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/math/2609.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/math/2798.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/math/3460.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/queue/11866.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/queue/18258.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/queue/2164.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/queue/2346.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/queue/24511.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/queue/28279.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/sort/10814.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/sort/10989.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/sort/11650.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/sort/11651.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/sort/18870.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/sort/2587.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/sort/2693.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/sort/2750.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/sort/2751.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/sort/bubble.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/sort/insert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/sort/merge.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/sort/quick.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/sort/selection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/stack/12789.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/stack/2504.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/stack/28278.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/stack/4949.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/stack/9012.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/step10/10101.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/step10/1085.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/step10/14215.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/step10/15894.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/step10/24313.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/step10/3009.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/step10/5073.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/step10/9063.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/step12/1018.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/step12/1436.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/step12/2231.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/step12/2501.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/step12/2798.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/step14/10815.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/step14/10816.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/step14/11478.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/step14/1269.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/step14/14425.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/step14/1620.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/step14/1764.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/step14/7785.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/step4/10810.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/step4/10811.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/step4/10813.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/step4/1546.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/step4/27866.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/step4/3052.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/step4/5597.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/step4/9086.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/step5/10809.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/step5/1152.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/step5/11718.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/step5/11720.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/step5/2675.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/step5/2908.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/step5/5622.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/step6/10988.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/step6/1157.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/step6/1316.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/step6/2444.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/step6/25083.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/step6/25206.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/step6/2941.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/step6/3003.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/step6/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/step7/10798.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/step7/2563.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/step7/2566.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/step7/2738.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/step8/11005.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/step8/1193.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/step8/2292.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/step8/2720.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/step8/2745.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/step8/2869.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/step8/2903.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/step9/11653.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/step9/11653_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/step9/1978.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/step9/2501.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/step9/2581.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/step9/5086.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/step9/9506.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/string/11721.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/string/1181.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/string/1181_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acmicpc/string/1427.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap3/code3_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap3/code3_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap3/code3_5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap3/code3_6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap3/code3_problem.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap6/code6_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/count_char.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/list_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lotto.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,28 +144,28 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2aANc7WLfpOokORuQSARgSloUg9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/eunjipark/project/python",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/eunjipark/project/python&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -50,6 +175,7 @@
       <option name="presentableId" value="Default" />
       <updated>1703757501858</updated>
       <workItem from="1703757502716" duration="895000" />
+      <workItem from="1706332824618" duration="10000" />
     </task>
     <servers />
   </component>
