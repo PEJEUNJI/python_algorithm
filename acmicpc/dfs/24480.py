@@ -1,4 +1,5 @@
 import sys
+#재귀 호출이 많아지면 에러가 날수 있어서 설정해 줘야 함
 sys.setrecursionlimit(10**6)
 
 vertex, edge, start = map(int,sys.stdin.readline().split())
@@ -18,7 +19,7 @@ for list in graph :
 order = 1
 def dfs(graph, start,answer):
     global order
-    # 순서가 update전이므로 방문전
+    # 순서가 update전이므로 방문안한 노드로 인지, 탐색 시작
     if answer[start-1] == 0 :
         #순서를 구하는 문제임으로 order를 입력
         answer[start-1] = order

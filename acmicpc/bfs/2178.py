@@ -29,7 +29,7 @@ def bfs(graph,x,y) :
                 graph[after_x][after_y] = graph[current_x][current_y] + 1
                 queue.append((after_x,after_y))
 
-
+#항상 첫칸은 이동가능한 1
 bfs(graph,0,0) 
 #가장 마지막 요소 출력
 print(graph[row-1][col-1])

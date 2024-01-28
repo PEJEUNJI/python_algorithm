@@ -1,4 +1,4 @@
-friends_list = ['eunji','dajeong','seungmin']
+vafriends_list = ['eunji','dajeong','seungmin']
 
 
 friends_list.append('momo')

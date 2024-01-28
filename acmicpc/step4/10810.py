@@ -7,7 +7,7 @@ print('data -> ',*diction_data.items())
 for i in sys.stdin :
     from_basket, to_basket, ball_number = map(int,i.split())
    
-    for i in range(from_basket,to_basket+1,1) :
+   re for i in range(from_basket,to_basket+1,1) :
         diction_data[i] = ball_number
 
     print('data -> ',*diction_data.values())

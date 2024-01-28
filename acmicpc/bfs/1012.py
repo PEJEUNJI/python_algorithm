@@ -40,6 +40,7 @@ for index in range(test_case) :
     #심어져 있는 배추의 좌표에 배추가 있다는 표시로 1을 저장한다.
     for _ in range(count) :
         x,y =  map(int,sys.stdin.readline().split())
+        #그냥 예외처리 하는 방법 까먹지 않기 위해서 한번 해봄
         try :
             graph[x][y] = 1
         except Exception:

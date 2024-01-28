@@ -11,6 +11,7 @@ dy = [1,0,-1,0]
 
 queue = deque()
 #이미 익은 토마토는 queue 에 넣고 시작한다. 안그러면 중복 발생
+#이미 익은 토마토를 다 넣고, 안 익은 토마토만 찾기 시작
 for r in range(row) :
     for c in range (col) :
        if graph[r][c] == 1 :
@@ -26,6 +27,8 @@ def bfs(graph) :
            after_y =  current_y + dy[index]
            # queue에 이미 익은 토마토만 있으므로 안익은 토마토만 찾아서 변경 시켜 준다
            if 0<=after_x<row and 0<=after_y<col and graph[after_x][after_y] == 0 :
+                #당일에 변경한 토마토의 갯수를 구해야 하므로, 현재 탐색횟수 +1을 한다.
+                #1부터 시작하므로 마지막 단계에서 -1 을 해줘야 함.
                 graph[after_x][after_y] = graph[current_x][current_y] + 1
                 queue.append((after_x,after_y))
    

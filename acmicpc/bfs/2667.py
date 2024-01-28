@@ -1,3 +1,4 @@
+#https://www.acmicpc.net/problem/2667
 import sys
 from collections import deque
 
@@ -7,6 +8,7 @@ graph = [[0]*size for _ in range(size)]
 
 dx = [0,1,0,-1]
 dy = [1,0,-1,0]
+#붙어 있는 문자열 하나씩 자르면서 이차원 배열에 저장
 for r in range(size) :
     line = sys.stdin.readline().strip()
     for c ,ch in enumerate(line) :
@@ -38,7 +40,9 @@ def bfs(graph,r,c):
 total = 0            
 for r in range(size) :
     for c in range(size) :
+        #1이 나오는 순간 인접해 있는 모든 1을 탐색해야 함
         if graph[r][c] == 1 :
+            #bfs가 호출된 횟수를 출력하기 위해서 
             total += 1
             count_list.append(bfs(graph,r,c))
            

@@ -14,7 +14,6 @@ for value in sys.stdin :
     network[nod2].append(nod1)
 
 def bfs(network,start) :
-    cnt = 0
     visted = set()
     queue  = deque([start])
 
@@ -24,6 +23,7 @@ def bfs(network,start) :
         if current_node not in visted :
             #방문 했음을 체크 하기 위함
             visted.add(current_node)
+            #근접해 있는 노드들을 체크한다.
             for neighbor in network[current_node] :
                 # 아직 방문전 노드라면 접근을 위해서 queue에 넣는다
                 if neighbor not in visted :
